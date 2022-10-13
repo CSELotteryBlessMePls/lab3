@@ -28,11 +28,16 @@ public class ArrayExamples {
     for(double num: arr) {
       if(num < lowest) { lowest = num; }
     }
+    int count = 0;
     double sum = 0;
     for(double num: arr) {
       if(num != lowest) { sum += num; }
+      else {count += 1;}
     }
-    return sum / (arr.length - 1);
+    if (arr.length == count){
+      return 0.0;
+    }
+    return sum / (arr.length - count);
   }
 
 
