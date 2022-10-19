@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListTests {
-    @Test
+    /* @Test
     public void testFilter(){
         ContainsB uhh = new ContainsB();
         List<String> test1List = new ArrayList<>();
@@ -20,7 +20,7 @@ public class ListTests {
         test1ListExpected.add("ball");
         test1ListExpected.add("bad");
         assertEquals(test1ListExpected, ListExamples.filter(test1List, uhh));
-    }
+    } */
 
     @Test
     public void testMerge() {
